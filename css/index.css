@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: fuchsia;
+}
+a{
+    text-decoration: none;
+}
+.b-header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(229,5,65);
+}
+.b-header .b-top{
+    width: 1125px;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.b-header .b-top .logo{
+    float: left;
+    width: 232px;
+    height: 60px;
+    display: block;
+}
+.b-header .b-top .link{
+    float: left;
+    overflow: hidden;
+    margin-left: 18px;
+}
+.b-header .b-top .link a{
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-right: 20px;
+}
+.b-header .b-top .link #cur{
+    background-color: rgb(160,3,45);
+}
+#aaaa{
+    background-color: rgb(160,3,45);
+}
+.b-header .b-top .login{
+    float: right;
+    font-size: 13px;
+    color: #ffffff;
+    height: 60px;
+}
+.b-header .b-top .login a{
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+
+/*弹出层*/
+#mask{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: none;
+    z-index: 100;
+    opacity: 0.4;/*ie6以上*/
+
+    filter: alpha(opacity=40);/*ie6半透明*/
+
+}
+
+/*#show{
+    width: 300px;
+    height: 500px;
+    background-color: #FFFFFF;
+    position: fixed;
+
+    margin-left: -150px;
+    display: none;
+}*/
+
+.login-t-c{
+    width: 776px;
+    height: 305px;
+    position: fixed;
+    display: none;
+    left: 20%;
+    background-color: #ffffff;
+    margin: 100px auto;
+    z-index: 101;
+    padding: 10px 0 80px 33px;
+}
+.login-t-c .login-t-c-t{
+    width: 740px;
+    height: 345px;
+
+}
+.login-t-c .login-t-c-t .lig-o{
+    width: 740px;
+    height: 60px;
+    border-bottom: 1px solid gainsboro;
+    float: left;
+}
+.login-t-c .login-t-c-t .lig-o span{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    line-height: 60px;
+}
+.login-t-c .login-t-c-t .lig-t{
+    width: 450px;
+    height: 284px;
+    float: left;
+    border-right: 1px solid gainsboro;
+}
+.login-t-c .login-t-c-t .lig-s{
+    width: 289px;
+    height: 284px;
+    float: left;
+}
+.login-t-c .login-t-c-t .lig-o .bb{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    font-size: 20px;
+
+}
+
+
+
+
+.b-content{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    margin-top: 15px;
+}
+.b-content .b-content-b{
+    width: 965px;
+    height: 100%;
+    background-color: #00BFF0;
+    margin: auto;
+}
+.b-content .b-content-b .b-content-left{
+    width: 650px;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+ul,li{
+    list-style: none;
+}
+
+
+
+
